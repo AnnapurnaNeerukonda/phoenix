@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, 
+				initial-scale=1.0">
+	<title>STUDENT</title>
+	<link rel="stylesheet" href="student.css">
+</head>
+
+<body>
+
+	<!-- for header part -->
+	<header>
+
+		<div class="logosec">
+			<div class="logo">STUDENT INFO</div>
+			<img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210182541/Untitled-design-(30).png"
+				class="icn menuicn" id="menuicn" alt="menu-icon">
+		</div>
+		<div class="message">
+			<div class="circle"></div>
+			<img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210183322/8.png" class="icn" alt="">
+			<div class="dp">
+				<img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210180014/profile-removebg-preview.png"
+					class="dpicn" alt="dp">
+			</div>
+		</div>
+
+	</header>
+
+	<div class="main-container">
+		<div class="aside">
+			<div class="placements">
+				<img class="placements-img" src="https://media.geeksforgeeks.org/wp-content/uploads/20221210183320/5.png" alt="">
+				<a href="#navb">PLACEMENTS</a>
+			</div>
+			<div class="history">
+				<img class="history-img" src="https://media.geeksforgeeks.org/wp-content/uploads/20221210183323/10.png" alt="">
+				<a href="">HISTORY</a>
+			</div>
+			<div class="logout">
+				<svg class="logout-img" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+					<path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+				  </svg>
+				<a href="" class="log" style="margin-top: -10px;">Logout</a>
+			</div>
+		</div>
+		<!--<div class="main">
+			<div class="searchbar2">
+				<input type="text" name="" id="" placeholder="Search">
+				<div class="searchbtn">
+					<img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210180758/Untitled-design-(28).png"
+						class="icn srchicn" alt="search-button">
+				</div>
+			</div>
+		</div>-->
+		
+		<div class="nav-beside" id="navb">
+			<h1>Placement Companies</h1>
+
+			<table border="2">
+				<thead>
+					<tr>
+						<th>Company Name</th>
+						<th>Industry</th>
+						<th>Location</th>
+						<th>Website</th>
+						<th>upload<br>offer letter</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>ABC Tech Solutions</td>
+						<td>Information Technology</td>
+						<td>New York, USA</td>
+						<td><a href="https://www.abctech.com">abctech.com</a></td>
+						<td><form action="/upload" method="post" enctype="multipart/form-data">
+							<label for="fileUpload"></label>
+							<input type="file" id="fileUpload" name="fileUpload">
+			
+						</form></td>
+					</tr>
+					<tr>
+						<td>XYZ Engineering</td>
+						<td>Engineering</td>
+						<td>San Francisco, USA</td>
+						<td><a href="https://www.xyzengineering.com">xyzengineering.com</a></td>
+						<td><form action="/upload" method="post" enctype="multipart/form-data">
+							<label for="fileUpload"></label>
+							<input type="file" id="fileUpload" name="fileUpload">
+						</form></td>
+					</tr>
+					<tr>
+						<td>Global Finance Corp</td>
+						<td>Finance</td>
+						<td>London, UK</td>
+						<td><a href="https://www.globalfinancecorp.com">globalfinancecorp.com</a></td>
+						<td><form action="/upload" method="post" enctype="multipart/form-data">
+							<label for="fileUpload"></label>
+							<input type="file" id="fileUpload" name="fileUpload">
+						</form></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div>
+	</div>
+	<script src="student.js"></script>
+</body>
+
+</html>
+
